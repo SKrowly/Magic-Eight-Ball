@@ -6,7 +6,7 @@ num = random.randint(1,8)
 
 #User input for question
 print("Please only ask a yes or no question below: ")
-question = int(input("Question: ")
+question = input("Question: ")
 
 if num == 1:
   print("Yes")
