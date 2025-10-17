@@ -1,0 +1,29 @@
+#Magic 8 ball
+import random
+
+#randomly gives a number between 1 and 8 
+num = random.randint(1,8) 
+
+#User input for question
+print("Please only ask a yes or no question below: ")
+question = int(input("Question: ")
+
+if num == 1:
+  print("Yes")
+elif num == 2:
+  print("Very Soon")
+elif num == 3:
+  print("Very Doubtful")
+elif num == 4:
+  print("Ask Again")
+elif num == 5:
+  print("Cannot tell now")
+elif num == 6:
+  print("Wait for it")
+elif num == 7:
+  print("No")
+else:
+  print("Not now")
+
+
+
