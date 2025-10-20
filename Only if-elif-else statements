@@ -5,25 +5,22 @@ import random
 num = random.randint(1,8) 
 
 #User input for question
-print("Please only ask a yes or no question below: ")
+print("Please only ask a yes or no question below")
 question = input("Question: ")
 
 if num == 1:
-  print("Yes")
+  print("Magic 8 Ball says: Yes")
 elif num == 2:
-  print("Very Soon")
+  print("Magic 8 Ball says: Very Soon")
 elif num == 3:
-  print("Very Doubtful")
+  print("Magic 8 Ball says: Very Doubtful")
 elif num == 4:
-  print("Ask Again")
+  print("Magic 8 Ball says: Ask Again")
 elif num == 5:
-  print("Cannot tell now")
+  print("Magic 8 Ball says: Cannot tell now")
 elif num == 6:
-  print("Wait for it")
+  print("Magic 8 Ball says: Wait for it")
 elif num == 7:
-  print("No")
+  print("Magic 8 Ball says: No")
 else:
-  print("Not now")
-
-
-
+  print("Magic 8 Ball says: Absolutely")
